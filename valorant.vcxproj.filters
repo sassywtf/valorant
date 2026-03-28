@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory\memory.cpp" />
+    <ClCompile Include="sdks\engine.cpp" />
+    <ClCompile Include="sdks\game.cpp" />
+    <ClCompile Include="cheat\cheat.cpp" />
+    <ClCompile Include="skin\skin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory\memory.hpp" />
+    <ClInclude Include="globals.hpp" />
+    <ClInclude Include="hooks\render.hpp" />
+    <ClInclude Include="spoofer\spoofer.hpp" />
+    <ClInclude Include="sdks\structs.hpp" />
+    <ClInclude Include="sdks\engine.hpp" />
+    <ClInclude Include="config\config.hpp" />
+    <ClInclude Include="cheat\cheat.hpp" />
+    <ClInclude Include="sdks\game.hpp" />
+    <ClInclude Include="skin\skin.hpp" />
+    <ClInclude Include="hooks\camera.hpp" />
+    <ClInclude Include="hooks\death.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofer\spoofer.asm" />
+  </ItemGroup>
+</Project>
